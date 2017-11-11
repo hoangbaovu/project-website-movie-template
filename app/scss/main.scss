@@ -1,0 +1,27 @@
+// Base
+@import "base/_typography.scss";
+
+// Components
+@import "components/_buttons.scss";
+@import "components/_carousel.scss";
+@import "components/_forms.scss";
+@import "components/_nav.scss";
+
+// Helpers
+
+@import "helpers/_functions.scss";
+@import "helpers/_helpers.scss";
+@import "helpers/_mixins.scss";
+@import "helpers/_variabless.scss";
+
+// Layout
+@import "layout/_header.scss";
+@import "layout/_footer.scss";
+
+// Pages
+
+@import "pages/_home.scss";
+
+// Vendors
+
+@import "vendors/bootstrap/_bootstrap";
