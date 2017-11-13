@@ -4135,7 +4135,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .d-inline-block {
   display: inline-block !important; }
 
-.d-block {
+.d-block, .sidebar__brand {
   display: block !important; }
 
 .d-table {
@@ -5883,13 +5883,13 @@ h1 {
 * Sidebar
 */
 .sidebar {
-  background: #393939;
+  background: #222;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   z-index: 1000;
-  padding: 20px 0;
+  padding: 0;
   overflow-x: hidden;
   overflow-y: auto;
   border-right: 1px solid #222;
@@ -5902,3 +5902,13 @@ h1 {
       margin-left: 0; }
   .sidebar .nav-link {
     border-radius: 0; }
+  .sidebar__brand {
+    background: #393939;
+    width: 150px;
+    height: 100px;
+    font-size: 36px;
+    line-height: 96px;
+    text-align: center;
+    font-weight: bold; }
+    .sidebar__brand:hover {
+      text-decoration: none; }
