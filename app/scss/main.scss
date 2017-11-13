@@ -1,11 +1,11 @@
-// Base
-@import "base/_theme-default";
-@import "base/_typography";
-
 // Vendors
 
 @import "vendors/bootstrap/_bootstrap";
 @import "vendors/font-awesome/_font-awesome";
+
+// Base
+@import "base/_theme-default";
+@import "base/_typography";
 
 // Helpers
 

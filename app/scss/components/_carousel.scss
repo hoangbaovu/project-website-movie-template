@@ -1,0 +1,19 @@
+.carousel.slide {
+
+    img {
+        width: 100%;
+    }
+}
+
+.carousel-indicators .active {
+    background: $primary;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+    margin-left: 7px;
+}

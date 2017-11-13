@@ -1,22 +1,4 @@
 @charset "UTF-8";
-/*
- * Base structure
- */
-body {
-  font-family: 'Roboto', sans-serif; }
-
-.main {
-  overflow: hidden;
-  margin: 0 14px 14px 0; }
-
-/*
-* Typography
-*/
-h1 {
-  padding-bottom: 9px;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #eee; }
-
 /*!
  * Bootstrap v4.0.0-beta.2 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -8213,6 +8195,25 @@ a.text-dark:focus, a.text-dark:hover {
   overflow: visible;
   clip: auto; }
 
+/*
+ * Base structure
+ */
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.main {
+  overflow: hidden;
+  padding: 100px 0 !important;
+  margin-left: 150px; }
+
+/*
+* Typography
+*/
+h1 {
+  padding-bottom: 9px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee; }
+
 .top-menu .active .nav-link, .top-menu .nav-link:hover {
   transition: all .3s; }
   .top-menu .active .nav-link::after, .top-menu .nav-link:hover::after {
@@ -8227,11 +8228,10 @@ a.text-dark:focus, a.text-dark:hover {
 
 .top-menu {
   background: #1d1e23;
-  margin-left: -11px;
-  margin-top: -16px;
   position: fixed;
   width: 100%;
-  height: 100px; }
+  height: 100px;
+  top: 0; }
   .top-menu .active .nav-link {
     position: relative; }
   .top-menu .nav-link {
@@ -8282,3 +8282,17 @@ a.text-dark:focus, a.text-dark:hover {
     margin-bottom: 10px; }
     .sidebar__icon i {
       font-size: 48px; }
+
+.carousel.slide img {
+  width: 100%; }
+
+.carousel-indicators .active {
+  background: #ed215e;
+  width: 15px;
+  height: 15px; }
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  margin-right: 7px;
+  margin-left: 7px; }
