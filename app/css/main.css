@@ -3,7 +3,8 @@
  * Base structure
  */
 body {
-  background: #181a24; }
+  background: #181a24;
+  font-family: 'Roboto', sans-serif; }
 
 /*
 * Typography
@@ -4150,7 +4151,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .d-inline-block {
   display: inline-block !important; }
 
-.d-block, .sidebar__brand {
+.d-block, .sidebar__brand, .sidebar__icon {
   display: block !important; }
 
 .d-table {
@@ -8220,9 +8221,7 @@ a.text-dark:focus, a.text-dark:hover {
   left: 0;
   z-index: 1000;
   padding: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
-  border-right: 1px solid #222;
+  overflow: hidden;
   width: 150px; }
   .sidebar .nav {
     margin-bottom: 20px; }
@@ -8231,7 +8230,11 @@ a.text-dark:focus, a.text-dark:hover {
     .sidebar .nav-item + .nav-item {
       margin-left: 0; }
   .sidebar .nav-link {
-    border-radius: 0; }
+    border-radius: 0;
+    font-size: 1em;
+    padding: 30px 0;
+    text-align: center;
+    text-transform: uppercase; }
   .sidebar__brand {
     background: #393939;
     width: 150px;
@@ -8242,3 +8245,7 @@ a.text-dark:focus, a.text-dark:hover {
     font-weight: bold; }
     .sidebar__brand:hover {
       text-decoration: none; }
+  .sidebar__icon {
+    margin-bottom: 10px; }
+    .sidebar__icon i {
+      font-size: 48px; }
