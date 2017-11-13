@@ -1,27 +1,29 @@
 // Base
 @import "vendors/bootstrap/_bootstrap";
-@import "base/_typography.scss";
+@import "base/_theme-default";
+@import "base/_typography";
 
 // Vendors
 
-
-// Components
-@import "components/_buttons.scss";
-@import "components/_carousel.scss";
-@import "components/_forms.scss";
-@import "components/_nav.scss";
-
 // Helpers
 
-@import "helpers/_functions.scss";
-@import "helpers/_helpers.scss";
-@import "helpers/_mixins.scss";
-@import "helpers/_variables.scss";
+@import "helpers/_functions";
+@import "helpers/_helpers";
+@import "helpers/_mixins";
+@import "helpers/_variables";
 
 // Layout
-@import "layout/_header.scss";
-@import "layout/_footer.scss";
+
+@import "layout/_header";
+@import "layout/_sidebar";
+@import "layout/_footer";
+
+// Components
+@import "components/_buttons";
+@import "components/_carousel";
+@import "components/_forms";
+@import "components/_nav";
 
 // Pages
 
-@import "pages/_home.scss";
+@import "pages/_home";

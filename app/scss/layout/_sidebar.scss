@@ -1,0 +1,33 @@
+/*
+* Sidebar
+*/
+
+.sidebar {
+    background: #393939;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid #222;
+    width: 150px;
+
+    .nav {
+        margin-bottom: 20px;
+    }
+
+    .nav-item {
+        width: 100%;
+
+        + .nav-item {
+            margin-left: 0;
+        }
+    }
+
+    .nav-link {
+        border-radius: 0;
+    }
+}
