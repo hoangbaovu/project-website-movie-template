@@ -1,3 +1,18 @@
+%afterActiveMenu {
+    transition: all .3s;
+    
+    &::after {
+        content: "";
+        background: $primary;
+        width: 60px;
+        height: 5px;
+        bottom: -26px;
+        left: 50%;
+        margin-left: -34px;
+        position: absolute;
+    }
+}
+
 .top-menu {
     background: #1d1e23;
     margin-left: -11px;
@@ -10,16 +25,7 @@
         .nav-link {
             position: relative;
 
-            &::after {
-                content: "";
-                background: $primary;
-                width: 60px;
-                height: 5px;
-                bottom: -26px;
-                left: 50%;
-                margin-left: -34px;
-                position: absolute;
-            }
+            @extend %afterActiveMenu;
         }
     }
 
@@ -31,6 +37,9 @@
 
         &:hover {
             color: $primary;
+            position: relative;
+
+            @extend %afterActiveMenu;
         }
     }
 }
