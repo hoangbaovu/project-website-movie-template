@@ -8206,6 +8206,9 @@ body {
   padding: 100px 0 !important;
   margin-left: 150px; }
 
+.wrap {
+  margin-bottom: 40px; }
+
 /*
 * Typography
 */
@@ -8312,7 +8315,7 @@ h1 {
 
 .card-title {
   font-size: 1.125em;
-  padding: 18px 0;
+  padding: 18px 0 10px;
   text-align: center;
   text-transform: uppercase; }
   .card-title a {
