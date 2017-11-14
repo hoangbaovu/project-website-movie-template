@@ -8235,7 +8235,8 @@ h1 {
   position: fixed;
   width: 100%;
   height: 100px;
-  top: 0; }
+  top: 0;
+  z-index: 999; }
   .top-menu .active .nav-link {
     position: relative; }
   .top-menu .nav-link {
