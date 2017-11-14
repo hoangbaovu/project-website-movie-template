@@ -8226,6 +8226,9 @@ h1 {
       color: #ed215e;
       text-decoration: none; }
 
+button:focus {
+  outline: 0; }
+
 .top-menu .active .nav-link, .top-menu .nav-link:hover {
   transition: all .3s; }
   .top-menu .active .nav-link::after, .top-menu .nav-link:hover::after {
