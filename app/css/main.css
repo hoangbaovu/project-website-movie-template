@@ -8316,7 +8316,8 @@ h1 {
 .card {
   background: #222433;
   border: 0;
-  border-radius: 0; }
+  border-radius: 0;
+  margin-bottom: 30px; }
 
 .card-title {
   font-size: 1.125em;
