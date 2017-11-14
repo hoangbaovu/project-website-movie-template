@@ -8220,6 +8220,11 @@ h1 {
 .heading {
   font-size: 2.25em;
   margin: 20px 0; }
+  .heading a {
+    color: #fff; }
+    .heading a:hover {
+      color: #ed215e;
+      text-decoration: none; }
 
 .top-menu .active .nav-link, .top-menu .nav-link:hover {
   transition: all .3s; }
