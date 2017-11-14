@@ -1,0 +1,26 @@
+.col-md-3.card {
+    padding: 0;
+}
+
+.card {
+    background: #222433;
+    border: 0;
+    border-radius: 0;
+}
+
+.card-title {
+    font-size: 1.125em;
+    padding: 18px 0;
+    text-align: center;
+    text-transform: uppercase;
+
+    a {
+        color: $white;
+        text-decoration: none;
+        transition: all .3s;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+}
