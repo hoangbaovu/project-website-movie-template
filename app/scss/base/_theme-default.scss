@@ -12,6 +12,16 @@ body {
     margin-left: 150px;
 }
 
+@mixin a-link($white) {
+    color: $white;
+    transition: all .3s;
+
+    &:hover {
+        color: $primary;
+        text-decoration: none;
+    }
+}
+
 .wrap {
     margin-bottom: 40px;
 
@@ -27,25 +37,13 @@ body {
             @extend .mr-auto;
         
             a {
-                color: $white;
-                transition: all .3s;
-        
-                &:hover {
-                    color: $primary;
-                    text-decoration: none;
-                }
+                @include a-link($white);
             }
         }
 
         &__icon {
 
-            color: $white;
-            transition: all .3s;
-
-            &:hover {
-                color: $primary;
-                text-decoration: none;
-            }
+            @include a-link($white);
 
             i {
                 font-size: 24px;
