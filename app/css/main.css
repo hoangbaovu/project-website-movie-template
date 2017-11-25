@@ -4148,7 +4148,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex {
+.d-flex, .wrap-heading {
   display: flex !important; }
 
 .d-inline-flex {
@@ -4314,7 +4314,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .justify-content-start {
   justify-content: flex-start !important; }
 
-.justify-content-end {
+.justify-content-end, .wrap-heading {
   justify-content: flex-end !important; }
 
 .justify-content-center {
@@ -4978,7 +4978,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .my-auto {
   margin-top: auto !important; }
 
-.mr-auto,
+.mr-auto, .wrap-heading__title,
 .mx-auto {
   margin-right: auto !important; }
 
@@ -8208,6 +8208,28 @@ body {
 
 .wrap {
   margin-bottom: 40px; }
+  .wrap-heading__title {
+    font-size: 2.25em;
+    margin: 20px 0; }
+    .wrap-heading__title a {
+      color: #fff;
+      transition: all .3s; }
+      .wrap-heading__title a:hover {
+        color: #ed215e;
+        text-decoration: none; }
+  .wrap-heading__icon {
+    color: #fff;
+    transition: all .3s; }
+    .wrap-heading__icon:hover {
+      color: #ed215e;
+      text-decoration: none; }
+    .wrap-heading__icon i {
+      font-size: 24px;
+      margin-top: 36px; }
+
+.pading-md {
+  padding-right: 53px;
+  padding-left: 53px; }
 
 /*
 * Typography
@@ -8216,15 +8238,6 @@ h1 {
   padding-bottom: 9px;
   margin-bottom: 20px;
   border-bottom: 1px solid #eee; }
-
-.heading {
-  font-size: 2.25em;
-  margin: 20px 0; }
-  .heading a {
-    color: #fff; }
-    .heading a:hover {
-      color: #ed215e;
-      text-decoration: none; }
 
 button:focus {
   outline: 0; }

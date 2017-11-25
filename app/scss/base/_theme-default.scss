@@ -14,4 +14,50 @@ body {
 
 .wrap {
     margin-bottom: 40px;
+
+    &-heading {
+
+        @extend .d-flex;
+        @extend .justify-content-end;
+
+        &__title {
+            font-size: 2.25em;
+            margin: 20px 0;
+
+            @extend .mr-auto;
+        
+            a {
+                color: $white;
+                transition: all .3s;
+        
+                &:hover {
+                    color: $primary;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        &__icon {
+
+            color: $white;
+            transition: all .3s;
+
+            &:hover {
+                color: $primary;
+                text-decoration: none;
+            }
+
+            i {
+                font-size: 24px;
+                margin-top: 36px;
+            }
+        }
+
+        
+    }
+}
+
+.pading-md {
+    padding-right: 53px;
+    padding-left: 53px;
 }
