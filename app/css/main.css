@@ -8204,7 +8204,8 @@ body {
 .main {
   overflow: hidden;
   padding: 100px 0 !important;
-  margin-left: 150px; }
+  margin-left: 150px;
+  width: 100%; }
 
 .wrap-heading__title {
   font-size: 2.25em;
