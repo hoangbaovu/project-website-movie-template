@@ -8227,6 +8227,14 @@ body {
     font-size: 24px;
     margin-top: 36px; }
 
+.wrap-heading__more {
+  color: #fff;
+  transition: all .3s;
+  margin-top: 36px; }
+  .wrap-heading__more:hover {
+    color: #ed215e;
+    text-decoration: none; }
+
 .pading-md {
   padding-right: 53px;
   padding-left: 53px; }

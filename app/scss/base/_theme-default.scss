@@ -51,6 +51,12 @@ body {
             }
         }
 
+        &__more {
+
+            @include a-link($white);
+            margin-top: 36px;
+        }
+
         
     }
 }
