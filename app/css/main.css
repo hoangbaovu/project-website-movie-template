@@ -8345,12 +8345,38 @@ button:focus {
 
 .card-title {
   font-size: 1.125em;
-  padding: 18px 0 10px;
-  text-align: center;
-  text-transform: uppercase; }
+  padding: 18px 0 10px; }
   .card-title a {
     color: #fff;
     text-decoration: none;
     transition: all .3s; }
     .card-title a:hover {
       color: #ed215e; }
+
+.hot-news {
+  padding-top: 20px; }
+  .hot-news .card {
+    position: relative;
+    overflow: hidden; }
+  .hot-news .card-block {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    bottom: 0;
+    left: 0; }
+  .hot-news .card-title {
+    line-height: 30px;
+    text-transform: none;
+    text-align: left;
+    padding: 10px 20px 0; }
+
+.post-news .card-block {
+  padding: 15px;
+  height: 200px; }
+
+.post-news .card-title {
+  line-height: 30px; }
+
+.post-news .card-text {
+  color: #c1c1c1; }

@@ -1,0 +1,41 @@
+.hot-news {
+
+    padding-top: 20px;
+
+    .card {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card-block {
+        content: "";
+        position: absolute;
+        background: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+
+    .card-title {
+        line-height: 30px;
+        text-transform: none;
+        text-align: left;
+        padding: 10px 20px 0;
+    }
+}
+
+.post-news {
+
+    .card-block {
+        padding: 15px;
+        height: 200px;
+    }
+
+    .card-title {
+        line-height: 30px;
+    }
+
+    .card-text {
+        color: #c1c1c1;
+    }
+}
