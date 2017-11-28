@@ -8431,3 +8431,19 @@ button:focus {
 .cast-bio {
   font-size: 1.125em;
   line-height: 30px; }
+
+.knowfor .card-title, .knowfor .card-text {
+  text-shadow: 0px 4px 3px black, 0px 8px 13px black, 0px 18px 23px black; }
+
+.knowfor .card-img-overlay {
+  background: rgba(255, 255, 255, 0.1);
+  bottom: 0;
+  top: inherit; }
+
+.knowfor .card-title {
+  font-size: 1.750em;
+  line-height: 0; }
+
+.knowfor .card-text {
+  line-height: 6px;
+  margin: 20px 0 0; }
