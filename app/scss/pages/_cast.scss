@@ -1,0 +1,68 @@
+.cast-container {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: -100px 0 50px;
+    height: 699px;
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+        background: rgba(34,34,34, 0.85);
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+}
+
+.cast-wrap {
+    position: relative;
+    padding: 307px 0 0 70px;
+    z-index: 2;
+}
+
+.cast-avatar {
+
+    img {
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30),
+                    0 15px 12px rgba(0,0,0,0.22);
+        transition: all .3s;
+    }
+
+    &:hover {
+
+        img {
+            box-shadow: 0 3px 83px 3000px rgba(0,0,0,0.7), 0 0 111px rgba(0, 0, 0, 0.22)
+        }
+    }
+}
+
+.cast-info {
+    margin-left: 40px;
+}
+
+.cast-name {
+
+    h3 {
+        font-size: 3.750em;
+        text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    }
+}
+
+.cast-job {
+    margin-bottom: 40px;
+
+    a {
+        @include a-link($white);
+        text-transform: uppercase;
+        font-size: 1.125em;
+    }
+}
+
+.cast-bio {
+    font-size: 1.125em;
+    line-height: 30px;
+}
