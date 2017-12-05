@@ -8468,3 +8468,33 @@ button:focus {
   border-top: 1px solid #405266;
   border-bottom: 1px solid #405266;
   margin-bottom: 70px; }
+  .movie-rate i {
+    color: #ffc107;
+    font-size: 1.8rem; }
+  .movie-rate__point {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; }
+    .movie-rate__point p {
+      margin-bottom: 0;
+      margin-left: 10px;
+      font-size: 11px;
+      color: #abb7c4; }
+      .movie-rate__point p span {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400; }
+      .movie-rate__point p span.rv {
+        font-size: 12px;
+        color: #4280bf; }
+  .movie-rate__rate-star {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+    border-left: 1px solid #405266;
+    padding-left: 15px;
+    height: 54px; }
+    .movie-rate__rate-star p {
+      color: #abb7c4;
+      margin: 0 10px; }
