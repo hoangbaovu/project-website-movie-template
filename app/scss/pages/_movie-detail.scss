@@ -17,6 +17,7 @@
     justify-content: flex-start;
     border-top: 1px solid #405266;
     border-bottom: 1px solid #405266;
+    margin-top: 40px;
     margin-bottom: 70px;
 
     i {
@@ -61,5 +62,25 @@
             color: #abb7c4;
             margin: 0 10px;
         }
+    }
+}
+
+.movie-nav-tabs {
+
+    margin-top: 70px;
+
+    .nav-tabs {
+        border-bottom-color: $primary;
+    }
+
+    .nav-link.active,
+    .nav-item.show .nav-link {
+      color: $white;
+      background-color: $nav-tabs-link-active-bg;
+      border-color: $primary $primary $nav-tabs-link-active-bg;
+    }
+
+    .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+        border-color: $primary;
     }
 }

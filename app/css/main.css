@@ -8467,6 +8467,7 @@ button:focus {
   justify-content: flex-start;
   border-top: 1px solid #405266;
   border-bottom: 1px solid #405266;
+  margin-top: 40px;
   margin-bottom: 70px; }
   .movie-rate i {
     color: #ffc107;
@@ -8498,3 +8499,15 @@ button:focus {
     .movie-rate__rate-star p {
       color: #abb7c4;
       margin: 0 10px; }
+
+.movie-nav-tabs {
+  margin-top: 70px; }
+  .movie-nav-tabs .nav-tabs {
+    border-bottom-color: #ed215e; }
+  .movie-nav-tabs .nav-link.active,
+  .movie-nav-tabs .nav-item.show .nav-link {
+    color: #fff;
+    background-color: #181a24;
+    border-color: #ed215e #ed215e #181a24; }
+  .movie-nav-tabs .nav-tabs .nav-link:focus, .movie-nav-tabs .nav-tabs .nav-link:hover {
+    border-color: #ed215e; }
