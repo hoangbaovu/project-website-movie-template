@@ -8413,7 +8413,8 @@ button:focus {
   box-shadow: 0 3px 83px 3000px rgba(0, 0, 0, 0.7), 0 0 111px rgba(0, 0, 0, 0.22); }
 
 .cast-info {
-  margin-left: 40px; }
+  margin-left: 40px;
+  width: 100%; }
 
 .cast-name h3 {
   font-size: 3.750em;
