@@ -8390,8 +8390,7 @@ button:focus {
   background-size: 100% 100%;
   margin: -100px 0 50px;
   height: 699px;
-  position: relative;
-  overflow: hidden; }
+  position: relative; }
   .cast-container::after {
     background: rgba(34, 34, 34, 0.85);
     content: "";
@@ -8453,3 +8452,19 @@ button:focus {
 .knowfor .card-text {
   line-height: 6px;
   margin: 20px 0 0; }
+
+.movie-social {
+  margin: 20px 0; }
+  .movie-social a {
+    font-size: 1.3rem;
+    padding-right: 20px; }
+    .movie-social a:hover {
+      text-decoration: none; }
+
+.movie-rate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: 1px solid #405266;
+  border-bottom: 1px solid #405266;
+  margin-bottom: 70px; }
