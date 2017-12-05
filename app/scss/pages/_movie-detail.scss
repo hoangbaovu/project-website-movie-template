@@ -68,6 +68,10 @@
 .movie-nav-tabs {
 
     margin-top: 70px;
+    
+    .tab-content {
+        padding: 20px 0;
+    }
 
     .nav-tabs {
         border-bottom-color: $primary;
@@ -82,5 +86,15 @@
 
     .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
         border-color: $primary;
+    }
+}
+
+.movie-poster {
+
+    img {
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30),
+                    0 15px 12px rgba(0,0,0,0.22);
+                    margin-bottom: 30px;
+        transition: all .3s;
     }
 }
