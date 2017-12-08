@@ -6,6 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Liên minh công lý - Justice League - 2017</title>
     <link rel="stylesheet" href="css/main.css">
+    <style>
+    .modal-backdrop.show {z-index: 0}
+    @media (min-width: 576px) {
+      .modal-dialog {
+        max-width: 892px;
+        margin: 30px auto;
+        }
+      .modal-sm {
+        max-width: 300px; } }
+    </style>
 </head>
 <body>
     <div class="container-fluid">
@@ -71,8 +81,29 @@
               <div class="movie-poster">
                 <img src="images/poster/movie9.jpg" alt="">
 
-                <a href="/movie-watching.html" class="btn btn-primary btn-lg btn-block">Xem phim</a>                
-                
+                <a href="/movie-watching.html" class="btn btn-primary btn-lg btn-block">Xem phim</a>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#trailerMovie">
+                  Trailer
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade bd-example-modal-lg" id="trailerMovie" tabindex="-1" role="dialog" aria-labelledby="trailerMovieLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="trailerMovieLabel">Trailer Liên minh công lý</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe width="860" height="515" src="https://www.youtube.com/embed/qbBT5nxTtVk" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <!-- /.movie-poster -->
               <div class="cast-info">

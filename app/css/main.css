@@ -8358,6 +8358,9 @@ button:focus {
     .card-title a:hover {
       color: #ed215e; }
 
+.modal-title {
+  color: #000; }
+
 .hot-news {
   padding-top: 20px; }
   .hot-news .card {
