@@ -47,19 +47,19 @@
    top: 0;
 }
 
-.comments-list:after {
-   content: '';
-   position: absolute;
-   background: #222;
-   bottom: 0;
-   left: 27px;
-   width: 7px;
-   height: 7px;
-   border: 3px solid #dee1e3;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   border-radius: 50%;
-}
+// .comments-list:after {
+//    content: '';
+//    position: absolute;
+//    background: #222;
+//    bottom: 0;
+//    left: 27px;
+//    width: 7px;
+//    height: 7px;
+//    border: 3px solid #dee1e3;
+//    -webkit-border-radius: 50%;
+//    -moz-border-radius: 50%;
+//    border-radius: 50%;
+// }
 
 .reply-list:before, .reply-list:after {display: none;}
 .reply-list li:before {
