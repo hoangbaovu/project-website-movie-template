@@ -88,10 +88,17 @@ gulp.task('default', function(callback) {
   )
 })
 
+gulp.task('sass:dist', function() {
+  return gulp.src('app/scss/**/*.scss') // Gets all files ending with .scss in app/scss and children dirs
+    .pipe(wait(500))
+    .pipe(sass()) // Passes it through a gulp-sass
+    .pipe(gulp.dest('dist/css')) // Outputs it in the css folder
+})
+
 gulp.task('build', function(callback) {
   runSequence(
     'clean:dist',
-    'sass',
+    'sass:dist',
     ['useref', 'images', 'fonts'],
     callback
   )
