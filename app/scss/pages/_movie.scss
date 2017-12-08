@@ -107,4 +107,17 @@
 
 .movie-watching {
     margin: 0 auto;
+
+    &__title {
+        font-size: 1.4rem;
+        margin-top: 20px;
+        line-height: 2rem;
+    }
+
+    &__view-count {
+
+        span {
+            font-size: 1.2rem;
+        }
+    }
 }
