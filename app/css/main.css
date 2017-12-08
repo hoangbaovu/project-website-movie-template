@@ -8542,6 +8542,12 @@ button:focus {
   .reply-list .comment-box {
     width: 320px; } }
 
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #181a24;
+  border-left: 5px solid #ed215e; }
+
 .col-md-3.card {
   padding: 0; }
 
