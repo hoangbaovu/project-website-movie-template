@@ -78,19 +78,17 @@
           <!-- /.top-menu -->
 
           <div class="cast-container" style="background-image: url(images/movie-detail/movie-detail-1.jpg)">
-            <div class="cast-wrap d-flex">
+            <div class="cast-wrap d-flex movie-wrap">
+
               <div class="movie-watching">
-                <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="840" height="464" poster="http://vjs.zencdn.net/v/oceans.png" data-setup="{}">
-                  <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
-                  <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
-                  <source src="http://vjs.zencdn.net/v/oceans.ogv" type="video/ogg">
-                  <track kind="captions" src="../shared/example-captions.vtt" srclang="en" label="English"></track>
-                  <!-- Tracks need an ending tag thanks to IE9 -->
-                  <track kind="subtitles" src="../shared/example-captions.vtt" srclang="en" label="English"></track>
-                  <!-- Tracks need an ending tag thanks to IE9 -->
+                <video id="movie_watch" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" width="896" height="504" poster="images/movie-detail/movie-detail-1.jpg" data-setup="{}">
+                  <source src="video/video.mp4" type="video/mp4">
                   <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
                 </video>
+
               </div>
+              <!-- /.movie-watching -->
+
             </div>
           </div>
 
