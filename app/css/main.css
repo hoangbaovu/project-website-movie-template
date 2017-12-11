@@ -8304,7 +8304,8 @@ button:focus {
     font-size: 1em;
     padding: 30px 0;
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    border-left: 5px solid transparent; }
   .sidebar__brand {
     background: #393939;
     width: 150px;
